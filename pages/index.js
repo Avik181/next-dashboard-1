@@ -283,7 +283,7 @@ export default function Dashboard() {
                     <InputGroup bgColor="#fff" mb={4} border="none" borderColor="#fff" borderRadius="10px" mr={2}>
                         <InputLeftElement
                             pointerEvents="none"
-                            children={<FiSearch color="gray" />}
+                            childre={<FiSearch color="gray" />}
                         />
                         <Input type="number" placeholder="Search" borderRadius="10px" />
                     </InputGroup>
@@ -443,7 +443,7 @@ export default function Dashboard() {
                 <InputGroup>
                     <InputLeftElement
                         pointerEvents="none"
-                        children={<FiCreditCard color="gray.700" />}
+                        childre={<FiCreditCard color="gray.700" />}
                     />
                     <Input type="number" placeholder="xxxx xxxx xxxx xxxx" />
                 </InputGroup>
@@ -451,7 +451,7 @@ export default function Dashboard() {
                 <InputGroup>
                     <InputLeftElement
                         pointerEvents="none"
-                        children={<FiDollarSign color="gray.700" />}
+                        childre={<FiDollarSign color="gray.700" />}
                     />
                     <Input type="number" placeholder="169.00" />
                 </InputGroup>
